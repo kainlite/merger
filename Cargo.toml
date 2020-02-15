@@ -1,0 +1,13 @@
+[package]
+name = "merger"
+version = "0.1.0"
+authors = ["kainlite <kainlite@gmail.com>"]
+edition = "2018"
+description = "Binary that merges yaml files and prints it to the screen (use shell redirections to save the output elsewhere), useful for reusable ci/cd pipelines"
+repository = "https://github.com/kainlite/merger.git"
+license = "MIT OR Apache-2.0"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yaml-rust = "0.3.5"
+merge-yaml-hash = "0.2.0"
